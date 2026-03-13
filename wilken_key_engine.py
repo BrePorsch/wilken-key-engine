@@ -7704,3 +7704,4 @@ FOLIO_WILKEN_TRANSLATIONS.update({
         "pharmaceutical_action": "To be determined through Wilken Key analysis",
         "status": "Active investigation using Wilken Key methodology"
     },
+})
