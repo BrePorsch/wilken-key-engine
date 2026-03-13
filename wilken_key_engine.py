@@ -7706,7 +7706,6 @@ FOLIO_WILKEN_TRANSLATIONS.update({
     },
 })
 
-
 # =============================================================================
 # WILKEN KEY COMPLETE FOLIO TRANSLATIONS - COMPOSITE RECIPE FORMAT
 # Each folio = a RECIPE combining 2-3 plant ingredients
