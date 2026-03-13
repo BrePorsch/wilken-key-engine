@@ -7705,3 +7705,4 @@ FOLIO_WILKEN_TRANSLATIONS.update({
         "status": "Active investigation using Wilken Key methodology"
     },
 })
+exec(open('wilken_translations_FINAL.py').read())
