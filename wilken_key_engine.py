@@ -2690,6 +2690,7 @@ FOLIO_WILKEN_TRANSLATIONS.update(EXTENDED_FOLIO_TRANSLATIONS)
 # =============================================================================
 # Total file now exceeds 6000 lines
 # =============================================================================
+FOLIO_WILKEN_TRANSLATIONS.update({
     "f8r": {
         "folio": "f8r",
         "page": 15,
