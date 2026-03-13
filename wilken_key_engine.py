@@ -1756,7 +1756,13 @@ def render_vessel_comparison():
         <p style="color: #ffffff;">{VESSEL_COMPARISON['description']}</p>
     </div>
     """, unsafe_allow_html=True)
-    
+        # Display the real ancient vessels image
+    st.markdown("### 📸 Real Ancient Vessels (Archaeological Findings)")
+    try:
+        vessel_image = Image.open("voynich_images/ancient_vessels.jpg")
+        st.image(vessel_image, caption="Ancient pharmaceutical vessels with banded structure - compare to manuscript drawings", use_column_width=True)
+    except FileNotFoundError:
+        st.warning("⚠️ Please upload 'ancient_vessels.jpg' to the voynich_images folder")
     col1, col2 = st.columns(2)
     
     with col1:
